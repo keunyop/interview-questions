@@ -7,4 +7,5 @@
 
 
 # 백엔드
-- thread와 process의 차
+- thread와 process의 차이점?
+
