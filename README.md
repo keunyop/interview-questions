@@ -10,4 +10,5 @@
 # 백엔드
 - thread와 process의 차이점?
 - 내부 repository를 사용하는 이유는 무엇인가?
+- gradle과 maven의 차이점은 무엇인가?
 
