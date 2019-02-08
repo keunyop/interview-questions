@@ -19,3 +19,4 @@
 - elastic-search 와 graph-QL에 대해 설명해보라.
 - 동적 스키마 설계시 고민할 점은 무엇일까?
 - 절차지향과 객체지향 개발의 차이점을 설명해보라.
+- inercepter와 filter의 순서와 차이점은?
