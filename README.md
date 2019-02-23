@@ -23,3 +23,4 @@
 - transaction isolation level의 종류 및 특징은 무엇인가?
 - JTA란 무엇인가?
 - CDN과 AWS cloudfront의 차이점과 사용 이유를 설명해보라.
+- Static function의 특징은?
