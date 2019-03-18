@@ -25,5 +25,4 @@
 - CDN과 AWS cloudfront의 차이점과 사용 이유를 설명해보라.
 - Static function의 특징은?
 - MD5, AES256, SHA256의 차이점과 각 암호화 방식에 대해 설명해보라.
-- CDC는 무엇이며 구현 방법은 무엇인가?
-- Static function의 특징은?
+- Fault-tolerant(무정지) 시스템으로 가기 위해 필요한 개발 방법에 대한 생각을 말해보라.
