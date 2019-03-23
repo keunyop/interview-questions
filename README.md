@@ -38,7 +38,6 @@
 >  - 디버깅이 어려움
 
 
-- 내부 repository를 사용하는 이유는 무엇인가?
 - gradle과 maven의 차이점은 무엇인가?
 - O2O 서비스에서 백엔드 개발자의 역할은 무엇일까?
 - elastic-search 와 graph-QL에 대해 설명해보라.
