@@ -59,7 +59,16 @@
 > - Gradle이 Maven 보다 최대 100배 빠르다.
 
 
-- elastic-search 와 graph-QL에 대해 설명해보라.
+- **Elasticsearch 와 GraphQL에 대해 설명해보라.**
+> **Elasticsearch**
+> - Elasticsearch is a search server based on Lucene that provides a distributed, multitenant-capable full-text search engine.
+> - Hosted Search
+
+> **GraphQL**
+> - GraphQL is a data query language and runtime to request and deliver data to mobile and web apps.
+> - Database Tool
+
+
 - 동적 스키마 설계시 고민할 점은 무엇일까?
 - 절차지향과 객체지향 개발의 차이점을 설명해보라.
 - inercepter와 filter의 순서와 차이점은?
