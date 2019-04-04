@@ -86,11 +86,34 @@
 >> - 업그레이드가 쉽다.
 >> - 디버깅이 쉽다.
 
+- **Spring inercepter와 filter의 순서와 차이점은?**
+> **Intercepter vs. Filter**
+> - 실행되는 시점이 다르다.
+> - Filter는 Web Application에 등록하고, intercepter는 Spring context에 등록한다.
+> - 둘다 요청에 대한 전후 처리 역할을 수행한다.
+> - 가장 큰 차이점은 예외 처리.
 
+> **Intercepter**
+> '''
+public interface HandlerInterceptor {
+  boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler);
+  void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView mav);
+  void afterCompletion(HttpServletRequest request, HttpServeletResponse response, Object handler, Exception ex);
+}
+'''
+> Handler를 실행하기전(preHandle), Handler를 실행한 후(postHandle), view를 렌더링한 후(afterCompletion) 등, Servlet내에서도 메서드에 따라 실행 시점을 다르게 가져간다.
+
+> **Filter**
+> - Tomcat에선 deployment descriptor(web.xml)에 filter 
+> '''
+public interface Filter {
+  void doFilter(ServletRequest request, ServletResponse response, FilterChain chain);
+}
+'''
+> Servlet에서 처리하기 전후를 다룰 수 있다.
 
 
 - 동적 스키마 설계시 고민할 점은 무엇일까?
-- inercepter와 filter의 순서와 차이점은?
 - transaction isolation level의 종류 및 특징은 무엇인가?
 - JTA란 무엇인가?
 - CDN과 AWS cloudfront의 차이점과 사용 이유를 설명해보라.
