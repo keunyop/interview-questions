@@ -94,22 +94,22 @@
 > - 가장 큰 차이점은 예외 처리.
 
 > **Intercepter**
-'''
+```
 public interface HandlerInterceptor {
   boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler);
   void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView mav);
   void afterCompletion(HttpServletRequest request, HttpServeletResponse response, Object handler, Exception ex);
 }
-'''
+```
 > Handler를 실행하기전(preHandle), Handler를 실행한 후(postHandle), view를 렌더링한 후(afterCompletion) 등, Servlet내에서도 메서드에 따라 실행 시점을 다르게 가져간다.
 
 > **Filter**
 > - Tomcat에선 deployment descriptor(web.xml)에 filter 
-'''
+```
 public interface Filter {
   void doFilter(ServletRequest request, ServletResponse response, FilterChain chain);
 }
-'''
+```
 > Servlet에서 처리하기 전후를 다룰 수 있다.
 
 
