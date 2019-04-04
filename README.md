@@ -94,7 +94,7 @@
 > - 가장 큰 차이점은 예외 처리.
 
 > **Intercepter**
-> '''
+'''
 public interface HandlerInterceptor {
   boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler);
   void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView mav);
@@ -105,7 +105,7 @@ public interface HandlerInterceptor {
 
 > **Filter**
 > - Tomcat에선 deployment descriptor(web.xml)에 filter 
-> '''
+'''
 public interface Filter {
   void doFilter(ServletRequest request, ServletResponse response, FilterChain chain);
 }
