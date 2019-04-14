@@ -103,6 +103,18 @@ public interface HandlerInterceptor {
 }
 ```
 
+> **String Literal**
+```java
+String a = new String("abc");
+```
+> Heap 내의 일반 객체를 생성하고, 그 객체의 Reference 를 가지게 된다.
+```java
+String b = "abc";
+```
+> Heap 내의 **String constant pool** 에 저장
+> 이미 존재하는 문자열이라면 해당 인스턴스를 여러 Reference 가 참조
+> 특별한 이유가 없다면 String 문자열을 사용하는 것이 읽기 쉽고 컴파일러가 코드를 최적화할 수 있는 기회를 제공
+
 > **Filter**
 > - Tomcat에선 deployment descriptor(web.xml)에 filter 
 > - Servlet에서 처리하기 전후를 다룰 수 있다.
