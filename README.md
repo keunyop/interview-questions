@@ -125,6 +125,18 @@ String b = "abc";
 > - 특별한 이유가 없다면 String 문자열을 사용하는 것이 읽기 쉽고 컴파일러가 코드를 최적화할 수 있는 기회를 제공
 
 
+- **Java Annotation 생성 방법**
+> 어노테이션은 소스 코드에 메타데이터를 표현
+> 단순 부가정보 뿐만 아니라, 리플렉션을 사용하여 원하는 클래스 주입이 가능
+
+> interface 아페 @를 붙이면 간간한 annotation을 만들 수 있다.
+```java
+public @interface TestAnno {
+    String value();
+}
+```
+
+
 - 동적 스키마 설계시 고민할 점은 무엇일까?
 - transaction isolation level의 종류 및 특징은 무엇인가?
 - JTA란 무엇인가?
