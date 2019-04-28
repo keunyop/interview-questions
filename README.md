@@ -137,6 +137,7 @@ public @interface TestAnno {
 ```
 
 
+- ArrayList VS LinkedList
 - 동적 스키마 설계시 고민할 점은 무엇일까?
 - transaction isolation level의 종류 및 특징은 무엇인가?
 - JTA란 무엇인가?
