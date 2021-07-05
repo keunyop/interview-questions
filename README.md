@@ -1,5 +1,5 @@
 # Interview Questions
-인터뷰 문제 
+인터뷰 질문 
 
 
 # 공통 
