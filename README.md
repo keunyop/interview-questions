@@ -90,7 +90,7 @@
 > **Intercepter vs. Filter**
 > - 실행되는 시점이 다르다.
 > - Filter는 Web Application에 등록하고, intercepter는 Spring context에 등록한다.
-> - 둘다 요청에 대한 전후 처리 역할을 수행한다.
+> - 둘 다 요청에 대한 전후 처리 역할을 수행한다.
 > - 가장 큰 차이점은 예외 처리.
 
 > **Intercepter**
