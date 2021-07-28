@@ -116,7 +116,7 @@ public interface Filter {
 ```java
 String a = new String("abc");
 ```
-> Heap 내의 일반 객체를 생성하고, 그 객체의 Reference 를 가지게 된다.
+> Heap 내의 일반 객체를 생성하고, 그 객체의 reference를 가지게 된다.
 ```java
 String b = "abc";
 ```
