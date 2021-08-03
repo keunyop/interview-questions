@@ -149,4 +149,4 @@ public @interface TestAnno {
 - Fault-tolerant(무정지) 시스템으로 가기 위해 필요한 개발 방법에 대한 생각을 말해보라.
 
 # 프론트엔드
-- api broken pipe 발생 원인과 해결 방법은 무엇인가?
+- api broken pipe 발생 원인과 해결방법은 무엇인가?
